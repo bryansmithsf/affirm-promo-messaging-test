@@ -6,7 +6,52 @@
     <title>Promo Testing</title>
 </head>
 <body>
-    
+    <div class="container">
+
+        <div class="row top-buffer">
+          <div class="col"></div>
+          <div class="col">
+            <a class="affirm-site-modal" data-page-type="banner"><img src="https://cdn-assets.affirm.com/images/banners/300x50.png" class="img-fluid" alt="Responsive image"></a>
+          </div>
+          <div class="col"></div>
+        </div>
+      
+        <div class="row top-buffer">
+          <div class="col">
+            <form id="api_keys">
+              <div class="form-group">
+                <label>Public API Key</label>
+                <input type="text" class="form-control" id="public_key">
+                <small class="form-text text-muted">Enter the merchant's public API key here.</small>
+              </div>
+              <div class="form-group">
+                <label>Private API Key</label>
+                <input type="password" class="form-control" id="private_key">
+                <small class="form-text text-muted">Enter the merchant's private API key here. This is not necessary if you are only testing promotional messaging.</small>
+              </div>
+              <button type="submit" class="btn btn-primary" id="keys">Submit</button>
+            </form>
+          </div>
+      
+          <div class="col">
+            <img src="https://cdn.shopify.com/s/files/1/1823/9587/products/Artifox_Shelf-black_Gallery_01_361096ba-08e0-4186-8b45-5fa49e3e7158_2048x2048.jpg?v=1503086467" class="img-fluid" alt="Responsive image">
+            <h1>Shelf 02</h1>
+            <h4>$99.97</h4>
+            <p class="affirm-as-low-as" data-page-type="product" data-affirm-color="black" data-amount="9997"></p>
+            <input class="btn btn-primary affirm" type="button" value="Buy with Affirm!" id="checkout" />
+          </div>
+        </div>
+      
+       <!--  <div class="row top-buffer">
+          <div class="col">
+            Future stuff goes here!
+          </div>
+          <div class="col">
+            more stuff here!
+          </div>
+        </div> -->
+      
+      </div>
 
     <link rel="stylesheet" href="./styles.css">
     <script src="./app.js"></script>
